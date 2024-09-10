@@ -18,12 +18,14 @@ while True:
 turtle.bye()
 '''
 
-'''
-import turtle
-turtle.setheading(90)#윗쪽
-turtle.setheading(0)#오른쪽
-turtle.setheading(180)#왼쪽
-turtle.setheading(-90)#아래쪽
-turtle.setheading(360)#오른쪽
-turtle.exitonclick()
-'''
+
+for v in [1,3,4,5]:
+    print(v)
+print("\n")
+for c in "Park Kyoung Jun":
+    print(c)
+
+total = 0
+for i in range(1,100 + 1):#range는 1~100까지의 정수를 만들어 낸다.
+    total += i
+print(total)
